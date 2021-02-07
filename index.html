@@ -10,18 +10,18 @@
     <div class="container">
       <main class="papercard">
         <div class="editor">
-          <div class="edit-area" placeholder="Type something..."></div>
+          <div class="edit-area" id="textBox" contenteditable="true" placeholder="Type something..."></div>
           <div class="toolkit">
-            <button class="head-1">
+            <button class="head-1 style-button" data-cmd="H1">
               <img src="assets/icons_h1.svg" alt="Head 1 button icon" />
             </button>
-            <button class="head-2">
+            <button class="head-2 style-button" data-cmd="H2">
               <img src="assets/icons_h2.svg" alt="Head 2 button icon" />
             </button>
-            <button class="bold">
+            <button class="bold style-button" data-cmd="bold">
               <img src="assets/icons_bold.svg" alt="Bold button icon" />
             </button>
-            <button class="italic">
+            <button class="italic style-button" data-cmd="italic">
               <img src="assets/icons_italic.svg" alt="Italic button icon" />
             </button>
           </div>
@@ -36,5 +36,6 @@
         </p>
       </footer>
     </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>
